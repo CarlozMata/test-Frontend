@@ -4,21 +4,57 @@
   box-sizing: border-box;
 }
 .nav {
+  width: 100%;
+  height: 40px;
   background-color: #0047ba;
   display: flex;
+  justify-content: flex-end;
 }
 .nav-options {
   background-color: red;
+  width: 400px;
+}
+.nav-options ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
 }
 .nav-cart {
   background-color: yellow;
 }
+.nav-cart img{
+  width: 30px;
+}
 .nav-login {
+  display: flex;
+  gap: 20px;
   background-color: yellowgreen;
 }
+
 main {
   background-color: gray;
 }
+.barra-busqueda {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.items-box {
+  display: flex;
+  justify-content: center;
+}
+.items {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}
+.items ul {
+  list-style: none;
+}
+.items img {
+  width: 100px;
+}
+
 footer {
   background-color: #0047ba;
 }
