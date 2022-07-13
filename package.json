@@ -1,0 +1,19 @@
+{
+  "name": "test-frontend",
+  "version": "1.0.0",
+  "description": "FrontEnd Developer Macropay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlozMata/test-Frontend.git"
+  },
+  "author": "CarlozMata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlozMata/test-Frontend/issues"
+  },
+  "homepage": "https://github.com/CarlozMata/test-Frontend#readme"
+}
