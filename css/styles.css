@@ -72,27 +72,33 @@ main {
   background-color: orange;
 }
 .barra-busqueda {
-  background-color:aliceblue;
   border: 1px solid black;
-  border-radius: 10px 0px 0px 10px;
   border-style: none;
+  margin-left: 10px;
+  width: 400px;
+  height: 28px;
+  outline: none;
+  }
+span {
+  background-color: aliceblue;
+  border-radius: 10px 0px 0px 10px;
   width: 500px;
   height: 30px;
 }
 .barra-busqueda-btn {
-  background-color:rgba(240, 248, 255, 0.897);
+  background-color: aliceblue;
   border-radius: 0px 10px 10px 0px;
   height: 30px;
   width: 40px;
 }
 .items-box {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: center;
 }
 .items-box2 {
   display: flex;
-  width: 100%;
+  width: 80%;
   justify-content: center;  
   gap: 10px;
   flex-wrap: wrap;
