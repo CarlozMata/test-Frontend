@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background-color: #0047ba;
+  display: flex;
+}
+.nav-options {
+  background-color: red;
+}
+.nav-cart {
+  background-color: yellow;
+}
+.nav-login {
+  background-color: yellowgreen;
+}
+main {
+  background-color: gray;
+}
+footer {
+  background-color: #0047ba;
+}
