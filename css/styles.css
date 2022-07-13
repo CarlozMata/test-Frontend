@@ -12,7 +12,10 @@
   justify-content: flex-end;
 }
 .nav-options {
+  display: flex;
   background-color: red;
+  align-items: center;
+  justify-content: center;
   width: 500px;
 }
 .nav-options ul {
@@ -21,16 +24,40 @@
   gap: 50px;
   list-style: none;
 }
-.nav-cart {
-  background-color: yellow;
+.nav-options li:hover {
+  cursor: pointer;
+
 }
+.nav-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  width: 100px;
+}
+
 .nav-cart img{
   width: 30px;
 }
+.nav-cart:hover {
+  cursor: pointer;
+}
 .nav-login {
   display: flex;
-  gap: 20px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
   background-color: yellowgreen;
+}
+.nav-login ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-login li:hover{
+  cursor: pointer;
+  background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+
 }
 
 main {
