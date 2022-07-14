@@ -228,20 +228,31 @@ span {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
   margin-top: 10px;
   background-color: rgba(187, 187, 186, 0.459);
-  height: 350px;
+  height: 340px;
 }
 footer ul {
-  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  border-radius: 4px;
 }
 footer img {
-  width: 50px;
+  display: flex;
+  margin-top: 10px;
+  width: 40px;
+}
+.redes-sociales ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 footer iframe {
-  width: 200px;
-  height: 200px;
+  margin-top: 10px;
+  width: 250px;
+  height: 250px;
 }
 
 /*MEDIAQUERIES*/
