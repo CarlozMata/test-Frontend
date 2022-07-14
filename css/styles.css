@@ -165,13 +165,11 @@ span {
   font-size: 16px;
 }
 .items img {
-  position: relative;
   margin: 20px 0px 0px 0px;
   width: 180px;
 }
 .btn-Rem {
-  position:absolute;
-  margin: 8px 0px 0px -8px;
+  margin: 8px 0px 0px 0px;
   width: 20px;
   height: 20px;
 }
@@ -179,8 +177,7 @@ span {
   cursor: pointer;
 }
 .btn-Add {
-  position:absolute;
-  margin: 8px 0px 0px 15px;
+  margin: 8px 0px 0px 0px;
   width: 20px;
   height: 20px;
 }
@@ -204,13 +201,13 @@ span {
   opacity: 1;
 }
 #popupBody{
-  width: 70%;
+  width: 40%;
   padding: 2%;
   border-radius: 15px;
   box-shadow: 0 0 5px #CCC;
   background: #FFF;
   position: relative;
-  margin: 20% auto;
+  margin: 10% auto;
   transition: all 5s ease-in-out;
 }
 #cerrar {
