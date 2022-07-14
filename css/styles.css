@@ -156,8 +156,8 @@ span {
 }
 .items {
   background-color: rgba(187, 187, 186, 0.459);
-  width: 300px;
-  height: 350px;
+  width: 350px;
+  height: 400px;
   text-align: center;
 }
 .items ul {
@@ -171,7 +171,7 @@ span {
 }
 .btn-Rem {
   position:absolute;
-  margin: 8px 0px 0px -9px;
+  margin: 8px 0px 0px -8px;
   width: 20px;
   height: 20px;
 }
@@ -186,6 +186,42 @@ span {
 }
 .btn-Add:hover {
   cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+#popupBody{
+  width: 70%;
+  padding: 2%;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #CCC;
+  background: #FFF;
+  position: relative;
+  margin: 20% auto;
+  transition: all 5s ease-in-out;
+}
+#cerrar {
+  position:absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #F00;
+  transition: all 200ms;
 }
 
 footer {
