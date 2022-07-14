@@ -209,7 +209,7 @@ span {
   box-shadow: 0 0 5px #CCC;
   background: #FFF;
   position: relative;
-  margin: 10% auto;
+  margin: 12% auto;
   transition: all 5s ease-in-out;
 }
 #cerrar {
@@ -232,7 +232,6 @@ footer {
   justify-content: center;
   margin-top: 10px;
   background-color: rgba(187, 187, 186, 0.459);
-  height: 110%;
 }
 footer ul {
   flex-wrap: wrap;
@@ -309,9 +308,6 @@ span {
 }
 .nav-login {
   font-size: 12px;
-}
-footer {
-  height: 100%;
 }
 footer p {
   text-align: center;
