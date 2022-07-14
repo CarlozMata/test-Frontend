@@ -93,7 +93,6 @@
   width: 300px;
   align-items: center;
   justify-content: center;
-  background-color: yellowgreen;
 }
 .nav-login ul {
   display: flex;
@@ -140,6 +139,7 @@ span {
   height: 15px;
 }
 .items-box {
+  margin-top: 10px;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -152,7 +152,7 @@ span {
   flex-wrap: wrap;
 }
 .items {
-  background-color: aqua;
+  background-color: rgba(187, 187, 186, 0.459);
   width: 300px;
   height: 350px;
   text-align: center;
