@@ -27,13 +27,11 @@
   list-style: none;
 }
 #menu ul li {
-  background-color: red;
 }
 #menu ul a {
   display: block;
-  color: #fff;
+  color: black;
   text-decoration: none;
-  font-weight: 400;
   font-size: 15px;
   padding: 14px;
   text-transform: uppercase;
@@ -72,15 +70,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
   width: 100px;
 }
 
 .nav-cart img{
-  width: 30px;
+  width: 25px;
 }
 .nav-cart:hover {
   cursor: pointer;
+}
+.nav-cart-item {
+  position: absolute;
+  border: 1px solid black;
+  text-align: center;
+  width: 15px;
+  height: 14px;
+  font-size: 11px;
+  margin: 12px 0px 0px 30px;
 }
 .nav-login {
   display: flex;
@@ -96,8 +102,6 @@
 }
 .nav-login li:hover{
   cursor: pointer;
-  background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
-
 }
 
 main {
@@ -115,21 +119,25 @@ main {
   border: 1px solid black;
   border-style: none;
   margin-left: 10px;
-  width: 400px;
-  height: 28px;
+  margin-top: 4px;
+  width: 490px;
+  height: 30px;
   outline: none;
+  background-color: aliceblue;
   }
 span {
   background-color: aliceblue;
-  border-radius: 10px 0px 0px 10px;
-  width: 500px;
-  height: 30px;
-}
+  border-radius: 10px 10px 10px 10px;
+  width: 520px;
+  height: 38px;
+  box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.2);}
 .barra-busqueda-btn {
+  position: absolute;
   background-color: aliceblue;
   border-radius: 0px 10px 10px 0px;
-  height: 30px;
-  width: 40px;
+  margin: 0px 0px 0px 240px;
+  width: 15px;
+  height: 15px;
 }
 .items-box {
   display: flex;
@@ -177,7 +185,9 @@ span {
 }
 
 footer {
+  margin-top: 10px;
   background-color: #0047ba;
+  height: 350px;
 }
 footer ul {
   display: flex;
@@ -187,6 +197,6 @@ footer img {
   width: 50px;
 }
 footer iframe {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
