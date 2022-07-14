@@ -254,6 +254,10 @@ footer iframe {
   width: 250px;
   height: 250px;
 }
+footer p {
+  text-align: center;
+  font-size: 14px;
+}
 
 /*MEDIAQUERIES*/
 
