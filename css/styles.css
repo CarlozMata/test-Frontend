@@ -159,6 +159,7 @@ span {
   width: 350px;
   height: 400px;
   text-align: center;
+  border-radius: 4px;
 }
 .items ul {
   list-style: none;
