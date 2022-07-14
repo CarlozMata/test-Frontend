@@ -6,6 +6,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+/*NAV*/
 .nav {
   width: 100%;
   height: 45px;
@@ -73,7 +74,6 @@ body {
   align-items: center;
   width: 50px;
 }
-
 .nav-cart img{
   width: 25px;
 }
@@ -104,7 +104,7 @@ body {
 .nav-login li:hover{
   cursor: pointer;
 }
-
+/*BARRA DE BUSQUEDA*/
 main {
   background-color: rgb(245, 243, 243);
 }
@@ -140,6 +140,7 @@ span {
   width: 15px;
   height: 15px;
 }
+/*CELULARES*/
 .items-box {
   margin-top: 10px;
   display: flex;
@@ -226,7 +227,7 @@ span {
   margin-top: 30px;
   text-align: justify;
 }
-
+/*FOOTER*/
 footer {
   display: flex;
   justify-content: center;
@@ -257,10 +258,8 @@ footer p {
   text-align: center;
   font-size: 14px;
 }
-
 /*MEDIAQUERIES*/
-
-@media only screen and (max-width:600px)
+@media only screen and (max-width:700px)
 {
 .barra-busqueda {
   width: 300px;
