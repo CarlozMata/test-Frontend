@@ -155,7 +155,7 @@ span {
 }
 .items {
   background-color: rgba(187, 187, 186, 0.459);
-  width: 350px;
+  width: 300px;
   height: 400px;
   text-align: center;
   border-radius: 4px;
@@ -172,6 +172,7 @@ span {
   margin: 8px 0px 0px 0px;
   width: 20px;
   height: 20px;
+  border-radius: 4px;
 }
 .btn-Rem:hover {
   cursor: pointer;
@@ -180,6 +181,7 @@ span {
   margin: 8px 0px 0px 0px;
   width: 20px;
   height: 20px;
+  border-radius: 4px;
 }
 .btn-Add:hover {
   cursor: pointer;
@@ -227,7 +229,7 @@ span {
 
 footer {
   margin-top: 10px;
-  background-color: #0047ba;
+  background-color: rgba(187, 187, 186, 0.459);
   height: 350px;
 }
 footer ul {
@@ -259,6 +261,10 @@ span {
   margin: 20px 0px 0px 0px;
   width: 150px;
 }
+.items {
+  width: 280px;
+  height: 360px;
+}
 #popupBody{
   width: 80%;
 }
@@ -271,6 +277,7 @@ span {
 .logoSamsung {
   width: 110px;
   height: 40px;
+  margin-left: 10px;
 }
 #menu ul a {
   font-size: 12px;
