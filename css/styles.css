@@ -237,3 +237,18 @@ footer iframe {
   width: 200px;
   height: 200px;
 }
+
+/*MEDIAQUERIES*/
+
+@media only screen and (max-width:600px)
+{
+.barra-busqueda {
+  width: 300px;
+  }
+span {
+  width: 320px;
+}
+.barra-busqueda-btn {
+  margin: 0px 0px 0px 140px;
+}
+}
